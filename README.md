@@ -70,7 +70,8 @@ mkdir -p ~/.gemini/config/plugins/custom-agents
 cp -r config/plugins/custom-agents/* ~/.gemini/config/plugins/custom-agents/
 
 # 2. 글로벌 룰 적용 (자연어 라우팅)
-cp GEMINI.md ~/.gemini/GEMINI.md
+# 기존에 사용 중인 규칙이 덮어씌워지지 않도록 내용만 덧붙입니다(Append).
+cat GEMINI.md >> ~/.gemini/GEMINI.md
 ```
 
 이제 Antigravity를 실행하고 "이 코드 보안 리뷰해줘"라고 말하면 자동으로 `security_reviewer`가 백그라운드에서 구동됩니다!
