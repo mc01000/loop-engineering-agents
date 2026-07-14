@@ -78,3 +78,17 @@ cp GEMINI.md ~/.gemini/GEMINI.md
 ```
 
 이제 Antigravity를 실행하고 "이 코드 보안 리뷰해줘"라고 말하면 자동으로 `security_reviewer`가 백그라운드에서 구동됩니다!
+
+---
+
+## 🤖 AI Agent Installation Guide (For Antigravity, Claude Code, Codex, etc.)
+
+If you are an AI coding assistant and the user asks you to "install", "apply", or "set up" this repository, follow these exact steps autonomously:
+
+1. **Install Prerequisites**: Run the command `agy plugin install https://github.com/obra/superpowers` to install the required skills.
+2. **Copy Agent Configs**: Copy all files from `config/plugins/custom-agents/` to `~/.gemini/config/plugins/custom-agents/`. Create the destination directories if they don't exist.
+3. **Merge Routing Rules**:
+   - Check if `~/.gemini/GEMINI.md` exists.
+   - If it does NOT exist, copy this repository's `GEMINI.md` to `~/.gemini/GEMINI.md`.
+   - If it DOES exist, read it. Extract the `## 4. 커스텀 에이전트 라우팅 (Custom Agent Routing)` section from this repository's `GEMINI.md` and intelligently merge it into the user's existing `~/.gemini/GEMINI.md` using your file editing tools. **Ensure you do not create duplicate rules or tags.**
+4. **Completion**: Inform the user that the "9-Agent Loop Engineering Environment" has been successfully configured.
