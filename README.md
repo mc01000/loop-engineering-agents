@@ -1,4 +1,4 @@
-# Antigravity (AGY) Setup - Custom Agents & Global Rules
+# Loop Engineering Agents - 9-Agent Virtual Team
 
 이 레포지토리는 Antigravity(AGY) 등 코딩 AI 도구들을 위한 사용자 지정 에이전트(`custom-agents`) 플러그인과 9인 오케스트레이션 라우팅 규칙(`agent-team-routing.md`)의 배포 및 공유를 위해 작성되었습니다. 
 
