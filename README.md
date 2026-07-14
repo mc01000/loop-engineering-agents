@@ -53,7 +53,12 @@
 
 ### 🚨 사전 요구사항 (Prerequisites)
 이 에이전트들은 최상의 성능을 내기 위해 내부적으로 **Superpowers 스킬 플러그인**을 강제적으로 사용하도록 설계되어 있습니다. 에이전트 적용 전, 반드시 사용자의 Antigravity 환경에 `superpowers` 플러그인이 설치되어 있어야 합니다. (미설치 시 일부 에이전트가 스킬 부재로 오작동을 일으킬 수 있습니다.)
-- **Superpowers 플러그인 저장소**: [https://github.com/obra/superpowers](https://github.com/obra/superpowers)
+
+아래 명령어를 실행하여 Antigravity에 Superpowers 플러그인을 먼저 설치해주세요:
+```bash
+agy plugin install https://github.com/obra/superpowers
+```
+- **참고 저장소**: [https://github.com/obra/superpowers](https://github.com/obra/superpowers)
 
 ### 📥 설치 및 적용
 
